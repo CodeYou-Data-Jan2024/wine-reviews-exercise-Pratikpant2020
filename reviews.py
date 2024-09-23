@@ -11,7 +11,7 @@ summary.sort_values(by=['count'], inplace=True, ascending=False)
 summary = summary.round(1)
 print(summary)
 # write the new summary to a new csv filegit s
-# ummary.to_csv('data/reviews-per-country.csv')
+summary.to_csv('data/reviews-per-country.csv')
 
 print("Summary data has been written to 'reviews-per-country.csv'")
 # add your code here
