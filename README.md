@@ -54,6 +54,7 @@ when you push.
 ### Virutal Environment Instructions
 
 1. After you have cloned the repo to your machine, navigate to the project 
+
 folder in GitBash/Terminal.
 1. Create a virtual environment in the project folder. `python3 -m venv venv` [^1]
 1. Activate the virtual environment. `source venv/bin/activate`
