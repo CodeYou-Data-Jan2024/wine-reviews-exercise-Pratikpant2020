@@ -10,7 +10,7 @@ summary = df.groupby('country').agg(
 summary.sort_values(by=['count'], inplace=True, ascending=False)
 summary = summary.round(1)
 print(summary)
-# write the new summary to a new csv file
+# write the new summary to a new csv filegit s
 summary.to_csv('data/reviews-per-country.csv')
-
+#print
 print("Summary data has been written to 'reviews-per-country.csv'")
